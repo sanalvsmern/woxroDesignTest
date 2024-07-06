@@ -1,7 +1,6 @@
 import './App.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { Button } from 'react-bootstrap';
 
 function App() {
   return (
@@ -142,10 +141,10 @@ function App() {
             </Col>
             <Col xs={12} className="d-flex justify-content-center">
               <Row>
-                <Col lg={6} md={6} sm={12} xs={12}>
+                <Col lg={6} md={12} sm={12} xs={12}>
                   <button className='butInt' style={{ border: '1px solid white', backgroundColor: 'black', color: 'white' }}>Rating us on skype</button>
                 </Col>
-                <Col lg={6} md={6} sm={12} xs={12}>
+                <Col lg={6} md={12} sm={12} xs={12}>
                   <button className='butInt' style={{ border: '1px solid black', backgroundColor: 'white', color: 'black' }}>Contact us</button>
                 </Col>
               </Row>

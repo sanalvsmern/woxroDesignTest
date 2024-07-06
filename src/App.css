@@ -1,6 +1,9 @@
 .App {
     background-color: black;
-    padding: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: white;
     display: flex;
     justify-content: center;
